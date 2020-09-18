@@ -1,3 +1,6 @@
+require("babel-core/register");
+require("babel-polyfill");
+
 import "react-credit-cards/es/styles-compiled.css";
 import "firebase/messaging";
 
