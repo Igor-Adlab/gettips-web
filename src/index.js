@@ -34,11 +34,8 @@ firebase.initializeApp({
   measurementId: "G-KZGENXC9EN",
   projectId: "gettipsonline-e501f",
   messagingSenderId: "954503722891",
-  storageBucket: "gettipsonline-e501f.appspot.com",
   apiKey: "AIzaSyAT32WhaZmnN4iJZuhZkfPzhlhqBiMjZK4",
-  authDomain: "gettipsonline-e501f.firebaseapp.com",
   appId: "1:954503722891:web:bd75af99cda10bfaab218e",
-  databaseURL: "https://gettipsonline-e501f.firebaseio.com",
 });
 
 /**
