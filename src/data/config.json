@@ -1,0 +1,5 @@
+{
+  "pills": [10, 15, 30, 50],
+  "countries": ["UA", "GB", "IL", "RU", "US"],
+  "currencies": ["UAH", "GBP", "ILS", "RUB", "USD"]
+}

@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "home": "",
+    "sign_in": "",
+    "sign_out": "",
+    "settings": "",
+    "sign_up": ""
+  },
+  "fields": {
+    "name": "",
+    "email": "",
+    "amount": "",
+    "password": "",
+    "comment": "",
+    "phone": "",
+    "card_number": "",
+    "select_card": "",
+    "new_password": "",
+    "save_card": "",
+    "current_password": "",
+    "confirmation_code": "",
+    "use_card": ""
+  },
+  "buttons": {
+    "back": "",
+    "pay": "",
+    "sign_in": "",
+    "my_qr": "",
+    "close": "",
+    "submit": "",
+    "send_tips": "",
+    "get_payed": "",
+    "sign_up": "",
+    "request_payout": "",
+    "forgot_password": "",
+    "have_not_account": "",
+    "change_password": "",
+    "show_qr": "",
+    "use_card_number": "",
+    "scan_qr": "",
+    "have_account": "",
+    "use_card": "",
+    "send_new_password": "",
+    "use_different_card": ""
+  },
+  "titles": {
+    "personal_qr": "",
+    "scan_qr": "",
+    "available_balance": ""
+  },
+  "messages": {
+    "card_saved": ""
+  },
+  "errors": {
+    "request_failed": "",
+    "payout_confirm": ""
+  },
+  "texts": {
+    "status_check": {
+      "not_found": {
+        "title": ""
+      },
+      "payed": {
+        "title": "",
+        "description": ""
+      },
+      "warning": {
+        "title": "",
+        "description": ""
+      },
+      "pending": {
+        "title": ""
+      }
+    },
+    "payout": {
+      "success": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "landing": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "links": {
+    "to_home": ""
+  }
+}

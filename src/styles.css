@@ -1,0 +1,55 @@
+#app {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+/** STYLE 4 */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 2px solid #555;
+}
+.BalanceCard {
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #7db9e8 78%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #1e5799 0%, #7db9e8 78%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #1e5799 0%, #7db9e8 78%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.CardsCarousel {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+.CardsCarousel--selected {
+  top: -10px;
+  left: 30px;
+  position: absolute;
+}
+.CardsCarousel--selected .anticon {
+  font-size: 48px;
+}
+.CardsCarousel .carousel-row {
+  padding: 15px 0;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+#responsive-page {
+  height: 100%;
+}

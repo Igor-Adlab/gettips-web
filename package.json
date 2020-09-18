@@ -1,0 +1,89 @@
+{
+  "name": "gettips-web",
+  "displayName": "GetTipsOnline Web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start:web": "webpack-dev-server --livereload",
+    "build:web": "NODE_ENV=production webpack-dev-server"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@hot-loader/react-dom": "^16.13.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "dotenv-webpack": "^2.0.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "husky": "^4.3.0",
+    "import-sort-style-module": "^6.0.0",
+    "prettier": "2.1.1",
+    "prettier-plugin-import-sort": "^0.0.4",
+    "pretty-quick": "^3.0.2",
+    "serviceworker-webpack-plugin": "^1.0.1",
+    "style-loader": "^1.2.1",
+    "ubuntu": "^2.0.0",
+    "url-loader": "^4.1.0",
+    "web": "0.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "module"
+    }
+  },
+  "dependencies": {
+    "antd": "^4.3.5",
+    "axios": "^0.20.0",
+    "classnames": "^2.2.6",
+    "countries-list": "^2.5.6",
+    "currency-formatter": "^1.5.5",
+    "currency-symbol-map": "^4.0.4",
+    "fela": "^11.3.0",
+    "fela-preset-web": "^11.3.0",
+    "firebase": "^7.21.0",
+    "google-libphonenumber": "^3.2.13",
+    "history": "^5.0.0",
+    "i18next": "^19.6.3",
+    "infinite-react-carousel": "^1.2.11",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "payment-icons": "^1.2.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-country-flag": "^2.3.0",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^16.13.1",
+    "react-fela": "^11.3.0",
+    "react-hot-loader": "^4.12.21",
+    "react-i18next": "^11.7.0",
+    "react-input-mask": "^2.0.4",
+    "react-offline": "^0.1.0",
+    "react-payment-icons": "^1.2.6",
+    "react-qr-code": "^1.0.2",
+    "react-qr-scanner": "0.0.9",
+    "react-query": "^2.17.2",
+    "react-query-devtools": "^2.4.7",
+    "react-router-dom": "^5.2.0",
+    "recoil": "^0.0.10",
+    "reselect": "^4.0.0",
+    "svg-sprite-loader": "^5.0.0",
+    "svgo-loader": "^2.2.1"
+  }
+}
