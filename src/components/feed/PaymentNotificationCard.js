@@ -92,7 +92,7 @@ export function PaymentNotificationCard({ item }) {
     () => (
       <PaymentDescription
         created_at={data.created_at}
-        description={data.phone}
+        description={data.phone || data.comment}
         type={type}
       />
     ),
@@ -104,7 +104,10 @@ export function PaymentNotificationCard({ item }) {
       <Card.Meta
         avatar={icon}
         description={description}
-        title={formatter.format(amount, { code: "UAH", format: "%v %s" })}
+        title={formatter.format(amount, {
+          code: data.currency,
+          format: "%v %s",
+        })}
       />
     </Card>
   );

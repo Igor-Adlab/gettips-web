@@ -80,7 +80,7 @@ export class Auth {
     });
   }
   async signOut(data) {
-    return this.axios.delete("/auth/sign-out", data).then((response) => {
+    return this.axios.delete("/auth/sign-out", { ...data, fcm: this.notifications.token }).then((response) => {
       localStorage.clear();
       return response.data;
     });
